@@ -1,6 +1,8 @@
 #' Send some praise
 #'
-#' Praise me at critical times in my life
+#' Praise someone at critical times in their life
+#'
+#' @param name character, the names of the person you want to praise
 #'
 #' @export
 #'
@@ -9,6 +11,6 @@
 #' # I'm gonna deliver some praise!
 #' praise()
 #'
-praise <- function() {
-  print("You're the best!")
+praise <- function(name = "Holly") {
+  paste("You're the best,", name)
 }
